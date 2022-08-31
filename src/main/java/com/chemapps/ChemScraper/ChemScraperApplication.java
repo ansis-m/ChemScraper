@@ -1,13 +1,13 @@
-package com.chemapps.ChemScrapper;
+package com.chemapps.ChemScraper;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ChemScrapperApplication {
+public class ChemScraperApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ChemScrapperApplication.class, args);
+		SpringApplication.run(ChemScraperApplication.class, args);
 	}
 
 }
