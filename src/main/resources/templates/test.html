@@ -49,8 +49,10 @@
             }
 
             function send() {
-                    let object = {
-                        "code": "jkzgfhsj",
+                marvin.exportStructure("inchi").then(function (inchi) {
+
+                        let object = {
+                        "code": inchi,
                         "time": "1",
                         "views": "3"
 
@@ -66,7 +68,13 @@
                     if (xhr.status == 200) {
                       alert("Success!");
                     }
-                }
+
+
+
+
+                });
+
+            }
 
 
 
